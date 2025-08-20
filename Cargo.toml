@@ -1,0 +1,8 @@
+[package]
+name = "bevy_nbody_leapfrog"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.15", features = ["bevy_winit"] }
+rand = "0.8"
